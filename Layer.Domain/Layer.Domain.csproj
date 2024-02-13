@@ -10,7 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\NET\CodesicorpService\API\API.csproj" />
     <ProjectReference Include="..\Layer.AccessData\Layer.AccessData.csproj" />
     <ProjectReference Include="..\Layer.Entity\Layer.Entity.csproj" />
   </ItemGroup>

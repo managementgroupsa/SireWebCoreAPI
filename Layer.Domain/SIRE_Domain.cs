@@ -12,7 +12,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Text;
 using System.Diagnostics;
-using API;
+
 
 namespace Layer.Domain
 {
@@ -20,18 +20,18 @@ namespace Layer.Domain
     {
 
 
-        public string BuscarPeriodos(EntidadSIRE oEntSire)
-        {
-            SIRE_RVIE oSire = new SIRE_RVIE();
+        //public string BuscarPeriodos(EntidadSIRE oEntSire)
+        //{
+        //    SIRE_RVIE oSire = new SIRE_RVIE();
 
-            string resultado = "";
+        //    string resultado = "";
 
-            resultado =oSire.BuscaPeriodos(oEntSire);
+        //    resultado =oSire.BuscaPeriodos(oEntSire);
             
 
 
-            return resultado;
-        }
+        //    return resultado;
+        //}
 
 
 
